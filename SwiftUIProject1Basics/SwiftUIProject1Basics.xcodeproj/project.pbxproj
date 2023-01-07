@@ -15,6 +15,7 @@
 		273A701A29688FB900B52B4D /* SwiftUIProject1BasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A701929688FB900B52B4D /* SwiftUIProject1BasicsUITests.swift */; };
 		273A701C29688FB900B52B4D /* SwiftUIProject1BasicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A701B29688FB900B52B4D /* SwiftUIProject1BasicsUITestsLaunchTests.swift */; };
 		273A702A2968911100B52B4D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A70292968911100B52B4D /* Task.swift */; };
+		273A70322969E03500B52B4D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A70312969E03500B52B4D /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		273A701929688FB900B52B4D /* SwiftUIProject1BasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProject1BasicsUITests.swift; sourceTree = "<group>"; };
 		273A701B29688FB900B52B4D /* SwiftUIProject1BasicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProject1BasicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		273A70292968911100B52B4D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		273A70312969E03500B52B4D /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				273A700029688FB600B52B4D /* ContentView.swift */,
 				273A700229688FB900B52B4D /* Assets.xcassets */,
 				273A700429688FB900B52B4D /* Preview Content */,
+				273A70312969E03500B52B4D /* UserSettings.swift */,
 			);
 			path = SwiftUIProject1Basics;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273A700129688FB600B52B4D /* ContentView.swift in Sources */,
+				273A70322969E03500B52B4D /* UserSettings.swift in Sources */,
 				273A702A2968911100B52B4D /* Task.swift in Sources */,
 				273A6FFF29688FB600B52B4D /* SwiftUIProject1BasicsApp.swift in Sources */,
 			);

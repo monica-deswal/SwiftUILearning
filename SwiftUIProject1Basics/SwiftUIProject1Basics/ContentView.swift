@@ -9,24 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var tasks = [Task]()
+    @ObservedObject var userSettings = UserSettings()
     
     var body: some View {
+        Text("\(userSettings.score)")
+            .font(.largeTitle)
         
-        List {
-            Button("Add Task") {
-                addTask()
-            }
-            ForEach(tasks) { task in
-                Text(task.name)
-            }
+        Button("Increment score") {
+            self.userSettings.score += 1
+        }
+        
         }
     }
-    
-    func addTask() {
-        self.tasks.append(Task(name: "Wash the car"))
-    }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
