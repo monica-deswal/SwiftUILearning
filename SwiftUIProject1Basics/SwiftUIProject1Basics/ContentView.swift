@@ -6,25 +6,16 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
     
-    @State var tasks = [Task]()
+    @ObservedObject var fancyTimer = FancyTimer()
     
     var body: some View {
         
-        List {
-            Button("Add Task") {
-                addTask()
-            }
-            ForEach(tasks) { task in
-                Text(task.name)
-            }
-        }
-    }
-    
-    func addTask() {
-        self.tasks.append(Task(name: "Wash the car"))
+        Text("\(self.fancyTimer.value)")
+            .font(.largeTitle)
     }
 }
 
