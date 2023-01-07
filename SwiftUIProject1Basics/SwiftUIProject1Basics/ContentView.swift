@@ -9,24 +9,39 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var tasks = [Task]()
+    let episode = Episode(name: "Macbreak Weekly", track: "WWDC 2019")
+    
+    @State private var isPlaying = false
     
     var body: some View {
         
-        List {
-            Button("Add Task") {
-                addTask()
-            }
-            ForEach(tasks) { task in
-                Text(task.name)
-            }
+        VStack {
+            
+            Text(self.episode.name)
+                .font(.title)
+                .foregroundColor(self.isPlaying ? .green : .blue)
+            
+            Text(self.episode.track)
+                .foregroundColor(.secondary)
+            
+            PlayButton(isPlaying: $isPlaying)
         }
     }
+}
+
+struct PlayButton: View {
     
-    func addTask() {
-        self.tasks.append(Task(name: "Wash the car"))
+    @Binding var isPlaying: Bool
+    
+    var body: some View {
+       
+        Button("Play") {
+            self.isPlaying.toggle()
+        }.padding(12)
+        
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

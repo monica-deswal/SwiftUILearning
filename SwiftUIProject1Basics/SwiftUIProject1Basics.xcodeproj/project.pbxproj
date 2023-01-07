@@ -14,7 +14,7 @@
 		273A701029688FB900B52B4D /* SwiftUIProject1BasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A700F29688FB900B52B4D /* SwiftUIProject1BasicsTests.swift */; };
 		273A701A29688FB900B52B4D /* SwiftUIProject1BasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A701929688FB900B52B4D /* SwiftUIProject1BasicsUITests.swift */; };
 		273A701C29688FB900B52B4D /* SwiftUIProject1BasicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A701B29688FB900B52B4D /* SwiftUIProject1BasicsUITestsLaunchTests.swift */; };
-		273A702C2968941900B52B4D /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A702B2968941900B52B4D /* Dish.swift */; };
+		273A702E2969D8CA00B52B4D /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A702D2969D8CA00B52B4D /* Episode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		273A701529688FB900B52B4D /* SwiftUIProject1BasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIProject1BasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273A701929688FB900B52B4D /* SwiftUIProject1BasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProject1BasicsUITests.swift; sourceTree = "<group>"; };
 		273A701B29688FB900B52B4D /* SwiftUIProject1BasicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProject1BasicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		273A702B2968941900B52B4D /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		273A702D2969D8CA00B52B4D /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		273A7028296890F600B52B4D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				273A702B2968941900B52B4D /* Dish.swift */,
+				273A702D2969D8CA00B52B4D /* Episode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273A700129688FB600B52B4D /* ContentView.swift in Sources */,
-				273A702C2968941900B52B4D /* Dish.swift in Sources */,
+				273A702E2969D8CA00B52B4D /* Episode.swift in Sources */,
 				273A6FFF29688FB600B52B4D /* SwiftUIProject1BasicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
